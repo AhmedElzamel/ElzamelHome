@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elzamel's Home</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: 'Comic Sans MS', cursive;
+    }
+    .title {
+      color: #f57c00;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 3rem;
+    }
+    .card {
+      border-radius: 20px;
+      transition: transform 0.3s;
+      overflow: hidden;
+      height: 400px;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-bottom: 4px solid white;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .card-text {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="title">Elzamel's Home</div>
+    <div class="row text-center mt-5 g-4">
+
+      <!-- Lunch List -->
+      <div class="col-md-4">
+        <a href="lunch_list.html" class="text-decoration-none">
+          <div class="card bg-warning text-white">
+            <img src="lunch.jpg" alt="Lunch Photo" />
+            <div class="card-body">
+              <h5 class="card-title">Lunch List</h5>
+              <p class="card-text">Mama’s kitchen creations 🍱</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Seif Exams -->
+      <div class="col-md-4">
+        <a href="seif_exams.html" class="text-decoration-none">
+          <div class="card bg-primary text-white">
+            <img src="Seif.jpg" alt="Seif Photo" />
+            <div class="card-body">
+              <h5 class="card-title">Seif's Exams</h5>
+              <p class="card-text">Focused and ready to shine!</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Sama Exams -->
+      <div class="col-md-4">
+        <a href="sama_exams.html" class="text-decoration-none">
+          <div class="card text-white" style="background-color:#e91e63;">
+            <img src="Sama.jpg" alt="Sama Photo" />
+            <div class="card-body">
+              <h5 class="card-title">Sama's Exams</h5>
+              <p class="card-text">Confident, bright, and ready!</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
